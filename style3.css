@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav1{
+    padding: 1.5rem;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom:2px solid #AA508C;
+   
+
+}
+
+.nav-left{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: #AA508C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.nav-right a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-right a:hover{
+    color: #AA508C;
+
+}
+
+header{
+    background-image: url(images/showcase.jpg);
+    max-width: 100%;
+    min-height: 55vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+    
+
+
+header h1{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 24px;
+    
+
+}
+header p{
+  
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 12px;
+
+}
+
+.nav2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: #35424A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav1-right input{
+    width: 13rem;
+    height: 2rem;
+}
+button{
+    color: white;
+    background-color: red;
+    padding: 0.5rem;
+}
+
+
+
+main{
+    height: 78vh;
+
+}
+
+.main1{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.w1{
+   color: rgba(0, 0, 0, 0.665);
+    border: 2px solid rgba(128, 128, 128, 0.145);
+    background-color: #E6E6E6;
+    padding: 2rem 1rem;
+    font-size: 12px;
+
+}
+
+.w1 h2{
+    font-size: 16px;
+}
+
+.div2{
+    font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-color: #35424A;
+   width: 30rem;
+   height: 18rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   padding: 2rem 2rem 1rem 1rem;
+
+   
+
+}
+
+
+
+
+
+footer{
+    padding: 1rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #35424A;
+    text-align: center;
+
+}
+
+footer img{
+    width: 13rem;
+    height: 2rem;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .nav1,.nav2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .nav-right{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+}
